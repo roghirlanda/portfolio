@@ -1,0 +1,113 @@
+.container-centralizado {
+  max-width: 1200px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 20px 0; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #5d5d5d; }
+
+h3 {
+  font-size: 1.7em; }
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.first {
+  min-height: 400px; }
+
+.div-title {
+  display: block;
+  float: left;
+  width: 65%; }
+  .div-title .div-verde {
+    min-height: 320px;
+    position: absolute;
+    width: 60%;
+    background: #71f1e9; }
+    .div-title .div-verde h1 {
+      text-align: right;
+      position: relative;
+      top: -30%;
+      left: 10%;
+      font-weight: 900;
+      font-size: 2em; }
+  .div-title .title {
+    position: relative;
+    top: 150px;
+    font-size: 3em;
+    left: 25%;
+    width: 80%;
+    border: 2px solid #fff;
+    height: 360px; }
+    .div-title .title h4 {
+      position: relative;
+      top: -18%;
+      font-size: 0.5em; }
+
+.menu {
+  position: absolute;
+  right: 0;
+  width: 30%;
+  top: 10%; }
+  .menu ul {
+    margin: 10px 0;
+    list-style: none;
+    padding: 0; }
+    .menu ul li {
+      line-height: 50px; }
+
+.about {
+  text-align: center; }
+
+.section-abilities div,
+.section-formacao div {
+  width: 50%; }
+.section-abilities .abilities span,
+.section-abilities .formacao span,
+.section-formacao .abilities span,
+.section-formacao .formacao span {
+  float: right; }
+.section-abilities .abilities ul,
+.section-abilities .formacao ul,
+.section-formacao .abilities ul,
+.section-formacao .formacao ul {
+  margin: 10px 0;
+  list-style: none;
+  padding: 0; }
+  .section-abilities .abilities ul li,
+  .section-abilities .formacao ul li,
+  .section-formacao .abilities ul li,
+  .section-formacao .formacao ul li {
+    border-bottom: 1px solid #aeaeae;
+    margin-bottom: 45px;
+    font-size: 1.2em; }
+.section-abilities .abilities ol,
+.section-abilities .formacao ol,
+.section-formacao .abilities ol,
+.section-formacao .formacao ol {
+  margin: 10px 0;
+  list-style: none;
+  padding: 0; }
+  .section-abilities .abilities ol li,
+  .section-abilities .formacao ol li,
+  .section-formacao .abilities ol li,
+  .section-formacao .formacao ol li {
+    line-height: 40px; }
+
+.skills {
+  background: #70f2ea; }
+  .skills div {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0; }
+  .skills i {
+    font-size: 1.5em; }
+
+/*# sourceMappingURL=style.css.map */

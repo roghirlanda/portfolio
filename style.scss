@@ -1,0 +1,127 @@
+$tamanho-padrao: 1200px;
+$no-list: none;
+.container-centralizado {
+	max-width: $tamanho-padrao;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+@mixin lista {
+	margin: 10px 0;
+	list-style: $no-list;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #5d5d5d;
+}
+h3 {
+	font-size: 1.7em;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+
+.first {
+	min-height: 400px;
+}
+.div-title{
+	display: block;
+	float: left;
+	width: 65%;
+	.div-verde {
+		min-height: 320px;
+		position: absolute;
+		width: 60%;
+		background: #71f1e9;
+
+		h1 {
+			text-align: right;
+			position: relative;
+			top: -30%;
+			left: 10%;
+			font-weight: 900;
+			font-size: 2em;
+		}
+	}
+	.title {
+		position: relative;
+		top: 150px;
+		font-size: 3em;
+		left: 25%;
+		width: 80%;
+		border: 2px solid #fff;
+		height: 360px;
+		h4 {
+			position: relative;
+			top: -18%;
+			font-size: 0.5em;
+		}
+	}
+}
+
+.menu {
+	position: absolute;
+	right: 0;
+	width: 30%;
+	top: 10%;
+	ul {
+		@include lista;
+		li {
+			line-height: 50px;
+		}
+	}
+}
+
+.about {
+	text-align: center;
+}
+
+.section-abilities,
+.section-formacao {
+	div {
+		width: 50%;
+	}
+	.abilities,
+	.formacao {
+		span {
+			float: right;
+		}
+		ul {
+			@include lista;
+
+			li {
+				border-bottom: 1px solid #aeaeae;
+				margin-bottom: 45px;
+				font-size: 1.2em;
+			}
+		}
+		ol {
+			@include lista;
+			li {
+				line-height: 40px;
+			}
+		}
+	}
+}
+
+.skills {
+	background: #70f2ea;
+
+	div {
+		width: 100%;
+		text-align: center;
+		margin: 10px 0;
+	}
+	i {
+		font-size: 1.5em;
+	}
+}
