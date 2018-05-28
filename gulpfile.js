@@ -1,5 +1,5 @@
 var gulp = require( 'gulp' );
-var minifycss = require( 'gulp-minify-css' );
+var minifycss = require( 'gulp-clean-css' );
 var sass = require( 'gulp-sass' );
 var notify = require( 'gulp-notify' );
 
