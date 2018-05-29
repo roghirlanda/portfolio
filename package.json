@@ -23,6 +23,7 @@
     "gulp-sass": "^4.0.1"
   },
   "dependencies": {
+    "gulp-clean": "^0.4.0",
     "gulp-minify-css": "^1.2.4"
   }
 }
