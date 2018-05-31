@@ -145,9 +145,20 @@ h3 {
 
 @media screen and (max-width: 600px) {
 	/* STYLES HERE */
+	p {
+		font-size: 12px;
+	}
+
+
+	.container-centralizado {
+		max-width: 330px;
+	}
+	.flex-container {
+		display:block;
+	}
 	.first {
-    min-height: 180px;
-}
+		min-height: 180px;
+	}
 	.div-title {
 		.title {
 			position: relative;
@@ -162,7 +173,7 @@ h3 {
 			}
 		}
 		.div-verde {
-			    min-height: 180px;
+			min-height: 180px;
 			width: 100%;
 			h1 {
 				top: -35%;
@@ -170,9 +181,23 @@ h3 {
 			}
 		}
 	}
-	.about {
-		p {
-			font-size:12px;
+	.section-abilities {
+		.web-developer {
+			display: none;
+		}
+		.abilities {
+			width: 100%;
+			ul {
+				li {
+					font-size: 0.9em;
+				}
+			}
 		}
 	}
+	.section-formacao {
+		div {
+			width: 100%;
+		}
+	}
+	
 }
