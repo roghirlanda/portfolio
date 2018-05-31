@@ -148,7 +148,14 @@ h3 {
 	p {
 		font-size: 12px;
 	}
-
+	h1, h3 {
+		margin: 10px 0;
+	}
+	.menu {
+		color: #fff;
+		width: 10%;
+		top: 8%;
+	}
 	#menuDesktop {
 		display:none;
 	}
@@ -167,10 +174,12 @@ h3 {
 			position: relative;
 			top: 80px;
 			font-size: 1.8em;
-			left: 15%;
+			left: 0;
 			width: 90%;
-			border: 2px solid #eaeaea;
+			border: none;
+			border-top: 2px solid #eaeaea;
 			height: 180px;
+			margin: 0 auto;
 			h4 {
 				top: -25%;
 			}
@@ -179,10 +188,16 @@ h3 {
 			min-height: 180px;
 			width: 100%;
 			h1 {
-				top: -35%;
-				left: -10%;
+				top: -20%;
+				left: 0;
+				font-size: 1.8em;
+				text-align:left;
 			}
 		}
+	}
+
+	.about {
+		text-align: left;
 	}
 	.section-abilities {
 		.web-developer {
