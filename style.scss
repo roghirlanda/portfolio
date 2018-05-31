@@ -1,6 +1,11 @@
 $tamanho-padrao: 1200px;
 $no-list: none;
 $white-text: #fff;
+<<<<<<< HEAD
+=======
+$tablet-width: 600px;
+$desktop-width: 1024px;
+>>>>>>> 95995f6dd2d449ef4013a381fc5e8f08b5d5c327
 .container-centralizado {
 	max-width: $tamanho-padrao;
 	position: relative;
@@ -143,13 +148,3 @@ h3 {
 	}
 }
 
-
-@media screen and (max-width: 600px) {
-	.second {
-		.about{
-			p {
-				font-size:12px;
-			}
-		}
-	}
-}

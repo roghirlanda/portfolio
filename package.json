@@ -1,8 +1,8 @@
 {
-  "name": "web",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "custom.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,13 +16,11 @@
     "url": "https://github.com/roghirlanda/portfolio/issues"
   },
   "homepage": "https://github.com/roghirlanda/portfolio#readme",
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
     "gulp-clean-css": "^3.9.4",
     "gulp-notify": "^3.2.0",
     "gulp-sass": "^4.0.1"
-  },
-  "dependencies": {
-    "gulp-minify-css": "^1.2.4"
   }
 }
