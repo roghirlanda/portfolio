@@ -144,10 +144,35 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
-    /* STYLES HERE */
-    .about {
-    	p {
-    		font-size:12px;
-    	}
-    }
+	/* STYLES HERE */
+	.first {
+    min-height: 180px;
+}
+	.div-title {
+		.title {
+			position: relative;
+			top: 80px;
+			font-size: 1.8em;
+			left: 15%;
+			width: 90%;
+			border: 2px solid #eaeaea;
+			height: 180px;
+			h4 {
+				top: -25%;
+			}
+		}
+		.div-verde {
+			    min-height: 180px;
+			width: 100%;
+			h1 {
+				top: -35%;
+				left: -10%;
+			}
+		}
+	}
+	.about {
+		p {
+			font-size:12px;
+		}
+	}
 }
