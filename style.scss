@@ -142,3 +142,14 @@ h3 {
 		color: #fff;
 	}
 }
+
+
+@media screen and (max-width: 600px) {
+	.second {
+		.about{
+			p {
+				font-size:12px;
+			}
+		}
+	}
+}
