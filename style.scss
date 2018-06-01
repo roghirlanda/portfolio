@@ -21,6 +21,11 @@ body {
 	padding: 0;
 	color: #5d5d5d;
 }
+.menu {
+	i {
+		display: none;
+	}
+}
 h3 {
 	font-size: 1.8em;
 }
@@ -143,6 +148,18 @@ h3 {
 	}
 }
 
+.portfolio {
+	display: flex;
+	justify-content: space-between !important;
+	.thumb-projeto {
+		width: 30%;
+		height: 270px;
+		img {
+			width: 100%;
+		}
+	}
+}
+
 @media screen and (max-width: 600px) {
 	/* STYLES HERE */
 	p {
@@ -215,6 +232,15 @@ h3 {
 	.section-formacao {
 		div {
 			width: 100%;
+			overflow: hidden;
+		}
+		.skills {
+			.flex-container {
+				div {
+					width: 50%;
+					float: left;
+				}
+			}
 		}
 	}	
 }
