@@ -25,6 +25,12 @@ body {
 	i {
 		display: none;
 	}
+	li {
+		color: #5d5d5d;
+	}
+	a {
+		text-decoration: none;
+	}
 }
 h3 {
 	font-size: 1.8em;
@@ -92,6 +98,9 @@ h3 {
 
 .about {
 	text-align: center;
+	    width: 50%;
+    margin: 0 auto;
+    font-size: 1.2em;
 }
 
 .section-abilities {
@@ -172,6 +181,9 @@ h3 {
 		color: #fff;
 		width: 10%;
 		top: 8%;
+		i {
+			display: block;
+		}		
 	}
 	#menuDesktop {
 		display:none;
